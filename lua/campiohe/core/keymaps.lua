@@ -31,7 +31,7 @@ map.set("v", "<A-k>", ":<C-u>execute \"'<,'>move '<-\" . (v:count1 + 1)<cr>gv=gv
 -- buffers
 map.set("n", "<leader>bd", "<cmd>:bd<cr>", { desc = "Delete Buffer and Window" })
 -- map.set("n", "<leader>bd", ":enew | bdelete #<CR>", { desc = "Delete buffer but keep window" })
--- map.set("n", "<leader>wd", "<C-W>c", { desc = "Delete Window", remap = true })
+map.set("n", "<leader>wd", "<C-W>c", { desc = "Delete Window", remap = true })
 map.set("n", "<S-h>", "<cmd>bprevious<cr>", { desc = "Prev Buffer" })
 map.set("n", "<S-l>", "<cmd>bnext<cr>", { desc = "Next Buffer" })
 
